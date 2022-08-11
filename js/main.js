@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
         // checks that navbar is at top of viewport
         if (navPosition.bottom != aboutMePosition.top) {
             boxShadow.style.setProperty("box-shadow", "0px 1px 2px 2px rgba(0, 0, 0, 0.3)");
-            boxShadow.style.setProperty("opacity", "0.96");
+            boxShadow.style.setProperty("opacity", "0.98");
         } else if (navPosition.bottom == aboutMePosition.top) {
             boxShadow.style.setProperty("box-shadow", "none");
             boxShadow.style.setProperty("opacity", "1");
